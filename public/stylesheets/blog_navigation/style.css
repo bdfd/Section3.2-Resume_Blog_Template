@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  height: 450px;
+  background: white;
+}
+
+.swiper-container {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+  height: 0;
+  width: 80%;
+  padding-bottom: 50%;
+}
+/* .swiper-slide img {
+  width: 100%;
+} */

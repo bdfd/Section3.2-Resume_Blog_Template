@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>Login Page</title>
+		<meta name="keywords" content="Kelvin, KC, Resume, Resume_Blog, Login in" />
+		<meta
+			name="description"
+			content="Kelvin Chen private blog visit www.kelvin-chen-resume.tk, if you want to know more please reach me at bdfd2005@gmail.com and you can called me BDFD if you see this message."
+		/>
+		<meta name="author" content="Kelvin Chen" />
+		<meta name="copyright" content="www.bdfd.tk" />
+		<link rel="stylesheet" media="screen" href="stylesheets/Login/login.css" />
+		<link rel="icon" type="image/png" href="/images/My Logo/favicon.png" />
+	</head>
+	<body>
+		<%- body%>
+		<!-- scripts -->
+		<script src="javascripts/Login/particles.js"></script>
+		<script type="text/javascript" src="/javascripts/protect.js"></script>
+		<script src="javascripts/Login/app.js"></script>
+		<script>
+			function changeImg() {
+				let pic = document.getElementById('picture');
+				console.log(pic.src);
+				if (pic.getAttribute('src', 2) == 'img/check.png') {
+					pic.src = 'img/checked.png';
+				} else {
+					pic.src = 'img/check.png';
+				}
+			}
+		</script>
+	</body>
+</html>

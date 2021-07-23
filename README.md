@@ -14,4 +14,5 @@ Project1- Float Periodic Table
 Gallery Page
 Contact Page
 
-2020-02-10
+2021-07-23
+Template Outline Done

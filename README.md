@@ -1,5 +1,5 @@
-Resume_Blog
-Build Online Resume Page
+Resume_Blog                                                                                                                                                                         
+Build Online Resume Page                                                                                                                                                           
 2020-01-17 Initial Login Page and Home Page
 
 2020-02-09 Every Pre Set Up Enable Release
